@@ -1,0 +1,90 @@
+/* Color Palette 👇 */
+/* CSS HEX */
+/* --pink-lavender: #cdb4dbff;
+--orchid-pink: #ffc8ddff;
+--nadeshiko-pink: #ffafccff;
+--uranian-blue: #bde0feff;
+--baby-blue-eyes: #a2d2ffff;
+--text: #38374f */
+
+/* SCSS RGB */
+/* $pink-lavender: rgba(205, 180, 219, 1);
+$orchid-pink: rgba(255, 200, 221, 1);
+$nadeshiko-pink: rgba(255, 175, 204, 1);
+$uranian-blue: rgba(189, 224, 254, 1);
+$baby-blue-eyes: rgba(162, 210, 255, 1); */
+
+/* HEADER  */
+
+.logo {
+  width: 100%;
+  max-width: 100px;
+  height: auto;
+}
+
+.navbar {
+  padding: 0.5rem 0rem;
+  border-bottom: 1px solid #cdb4dbff;
+  margin-bottom: 1rem;
+}
+
+.navbar-nav a.nav-link:last-of-type {
+  padding-right: 0;
+}
+
+/* MAIN SECTION  */
+
+.masthead {
+  width: 100%;
+  min-height: 60vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.black-overlay {
+  display: -webkit-flex;
+  display: flex;
+  background-color: rgba(205, 180, 219, 0.2);
+  height: 100%;
+  align-items: flex-start;
+  text-align: start;
+  display: block;
+  position: absolute;
+  width: 100%;
+}
+
+.content-box {
+  max-width: 720px;
+  margin: 0px auto;
+  color: #38374f;
+}
+
+.singleCal {
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #38374f;
+}
+
+/* FOOTER  */
+
+footer {
+  background-color: rgba(205, 180, 219, 0.2);
+  color: #38374f;
+  padding: 1rem 0rem;
+  padding-bottom: 0.5rem;
+}
+
+/* ABOUT PAGE  */
+
+.portrait-image {
+  float: left;
+  max-width: 200px;
+  margin: 5px 15px 15px 0px;
+  border-radius: 40%;
+  box-sizing: border-box;
+  box-shadow: 3px 3px 6px #cdb4dbff, -7px -7px 10px white;
+}
