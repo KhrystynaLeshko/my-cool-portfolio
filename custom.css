@@ -76,6 +76,7 @@ footer {
   color: #38374f;
   padding: 1rem 0rem;
   padding-bottom: 0.5rem;
+  margin-top: 12.5rem;
 }
 
 /* ABOUT PAGE  */
@@ -88,3 +89,5 @@ footer {
   box-sizing: border-box;
   box-shadow: 3px 3px 6px #cdb4dbff, -7px -7px 10px white;
 }
+
+/* PORTFOLIO PAGE */
