@@ -76,7 +76,7 @@ footer {
   color: #38374f;
   padding: 1rem 0rem;
   padding-bottom: 0.5rem;
-  margin-top: 12.5rem;
+  margin-top: 18rem;
 }
 
 /* ABOUT PAGE  */
@@ -91,3 +91,22 @@ footer {
 }
 
 /* PORTFOLIO PAGE */
+
+.card {
+  margin-bottom: 2rem;
+}
+
+.card-cap {
+  max-height: 300px;
+  overflow: hidden;
+}
+
+.card-title a {
+  color: #38374f;
+}
+
+.card-title a:hover {
+  text-decoration: none;
+  color: #ffafccff;
+  transform: scale(1.05);
+}
