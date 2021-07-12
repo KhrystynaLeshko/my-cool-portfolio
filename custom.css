@@ -110,3 +110,24 @@ footer {
   color: #ffafccff;
   transform: scale(1.05);
 }
+
+.btn {
+  background: #cdb4dbff;
+  /* height: 40px; */
+  border-radius: 20px;
+  cursor: pointer;
+  /* font-weight: 500; */
+  box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+  transition: 0.5s;
+  /* display: block; */
+  /* width: 100%; */
+  /* padding: 5px; */
+  border: none;
+  outline: none;
+  /* box-sizing: border-box; */
+}
+
+.btn:hover {
+  box-shadow: none;
+  background-color: #ffafccff;
+}
