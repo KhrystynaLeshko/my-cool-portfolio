@@ -59,6 +59,7 @@ $baby-blue-eyes: rgba(162, 210, 255, 1); */
 .content-box {
   max-width: 720px;
   margin: 0px auto;
+  margin-top: 2rem;
   color: #38374f;
 }
 
@@ -67,6 +68,7 @@ $baby-blue-eyes: rgba(162, 210, 255, 1); */
   margin-left: auto;
   margin-right: auto;
   color: #38374f;
+  line-height: 1.5em;
 }
 
 /* FOOTER  */
@@ -76,7 +78,7 @@ footer {
   color: #38374f;
   padding: 1rem 0rem;
   padding-bottom: 0.5rem;
-  margin-top: 18rem;
+  margin-top: 24rem;
 }
 
 /* ABOUT PAGE  */
@@ -113,21 +115,42 @@ footer {
 
 .btn {
   background: #cdb4dbff;
-  /* height: 40px; */
   border-radius: 20px;
   cursor: pointer;
-  /* font-weight: 500; */
   box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
   transition: 0.5s;
-  /* display: block; */
-  /* width: 100%; */
-  /* padding: 5px; */
   border: none;
   outline: none;
-  /* box-sizing: border-box; */
 }
 
 .btn:hover {
   box-shadow: none;
   background-color: #ffafccff;
+}
+
+/* CONTACT ME PAGE  */
+
+.contact-section {
+  margin: 0 auto;
+  margin-top: 3rem;
+  font-weight: bolder;
+}
+
+.contact-section h2 {
+  margin-bottom: 3rem;
+}
+
+.contact-bg {
+  min-height: 90vh;
+}
+
+.contact-section a {
+  text-decoration: #cdb4dbff;
+  cursor: pointer;
+  color: #38374f;
+}
+
+.contact-section a:hover {
+  color: #cdb4dbff;
+  transform: scale(1.05);
 }
