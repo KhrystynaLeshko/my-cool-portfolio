@@ -19,7 +19,7 @@
     <link rel="icon" href="./img/kl-favicon.png" type="image/icon type" />
   </head>
 
-  <body>
+  <div>
     <!-- HEADER 👇 -->
     <header class="container">
       <nav class="navbar navbar-expand-md navbar-light">
@@ -47,114 +47,17 @@
       </nav>
     </header>
 
+      
     <!-- MAIN SECTION 👇 -->
 
-    <!-- <div class="container site-content">
-      <h1>Portfolio</h1>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card">
-            <div class="card-img-top card-cap">
-              <a href="https://smart-portal.netlify.app/">
-                <img
-                  src="./img/logo-final.png"
-                  alt="smart-portal"
-                  class="img-fluid"
-                />
-              </a>
-            </div>
-            <div class="card-body">
-              <h2 class="card-title">
-                <a href="https://smart-portal.netlify.app/">🎓 Smart Portal </a>
-              </h2>
-              <p class="card-text">
-                This is a learning platform, with oportunity to become Your Best
-                Self. Full stack web application, made with:
-                <li>JavaScript</li>
-                <li>ReactJS</li>
-                <li>ExpressJS</li>
-                <li>NodeJS</li>
-                <li>MongoDB</li>
-                <li>Axios</li>
-                <li>Cloudinary</li>
-                <li>Framer Motion</li>
-                <li>HTML & CSS</li>
-                <li>Ironlauncher</li>
-                <li>CRUD operations & Authentication 🔐</li>
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card">
-            <div class="card-img-top card-cap">
-              <a href="https://iron-flix.herokuapp.com/">
-                <img
-                  src="./img/ironflix-portfolio.png"
-                  alt="ironflix"
-                  class="img-fluid"
-                />
-              </a>
-            </div>
-            <div class="card-body">
-              <h2 class="card-title">
-                <a href="https://iron-flix.herokuapp.com/">🍿 Ironflix 🎬 </a>
-              </h2>
-              <p class="card-text">
-                It is a platform with the finest movie collection of all times.
-                Full stack web application uses following technologies:
-                <li>JavaScript</li>
-                <li>Handlebars</li>
-                <li>ExpressJS</li>
-                <li>NodeJS</li>
-                <li>MongoDB</li>
-                <li>Axios</li>
-                <li>Cloudinary</li>
-                <li>HTML & CSS</li>
-                <li>Ironlauncher</li>
-                <li>CRUD operations & Authentication 🔐</li>
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card">
-            <div class="card-img-top card-cap">
-              <a href="https://khrystynaleshko.github.io/The-Office/">
-                <img
-                  src="./img/theOffice-portfolio.png"
-                  alt="office"
-                  class="img-fluid"
-                />
-              </a>
-            </div>
-            <div class="card-body">
-              <h2 class="card-title">
-                <a href="https://khrystynaleshko.github.io/The-Office/">
-                  The Office 👔
-                </a>
-              </h2>
-              <p class="card-text">
-                This is a mini game, created with:
-                <li>p5.js</li>
-                <li>DOM manipilations</li>
-                <li>HTML & CSS</li>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
-
-    <!-- TRYING NEW LAYOUT -->
-
     <div class="container site-content">
-      <h2>My Portfolio</h2>
+    <div class="container-fluid mb-4">
+      <div class="row justify-content-center row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
 
-      <div class="card-deck">
         <!-- FIRST CARD -->
-        <div class="card">
-          <img
+        <div class="col mt-4">
+          <div class="card">
+            <img
             src="./img/logo-final.png"
             class="card-img-top"
             alt="smart-portal"
@@ -184,11 +87,18 @@
             <a href="https://smart-portal.netlify.app/" class="btn btn-primary"
               >🎓 Smart Portal</a
             >
+            <a href="https://github.com/KhrystynaLeshko/smart-portal-client" class="btn btn-primary"
+              >Code Source</a
+            >
           </div>
         </div>
-        <!-- SECOND CARD  -->
-        <div class="card">
-          <img
+          </div>
+        </div>
+
+        <!-- SECOND CARD -->
+        <div class="col mt-4">
+          <div class="card">
+            <img
             src="./img/ironflix-portfolio.png"
             class="card-img-top"
             alt="ironflix"
@@ -196,6 +106,7 @@
           <div class="card-body">
             <h3 class="card-title">
               <a href="https://iron-flix.herokuapp.com/">🍿 Ironflix 🎬 </a>
+              
             </h3>
             <p class="card-text">
               - entertainment platform with the finest movie collection of all
@@ -217,11 +128,17 @@
             <a href="https://iron-flix.herokuapp.com/" class="btn btn-primary"
               >🍿 Ironflix 🎬</a
             >
+            
+            <a href="https://github.com/KhrystynaLeshko/ironflix" class="btn btn-primary">Code Source</a>
+
+          </div>
           </div>
         </div>
+
         <!-- THIRD CARD -->
-        <div class="card">
-          <img
+        <div class="col mt-4">
+          <div class="card">
+            <img
             src="./img/theOffice-portfolio.png"
             class="card-img-top"
             alt="office"
@@ -246,10 +163,90 @@
               class="btn btn-primary"
               >The Office 👔</a
             >
+            <a
+              href="https://github.com/KhrystynaLeshko/The-Office"
+              class="btn btn-primary"
+              >Code Source</a
+            >
+          </div>
+          </div>
+        </div>
+
+        <!-- 4th CARD -->
+        <div class="col mt-4">
+          <div class="card">
+            <img
+            src="./img/landing-portfolio-page.png"
+            class="card-img-top"
+            alt="landing-portfolio"
+          />
+          <div class="card-body">
+            <h3 class="card-title">
+              <a href="https://khrystynaleshko.github.io/">
+                Landing Page 🚀
+              </a>
+            </h3>
+            <p class="card-text">
+              - minimalistic & fully responsive Landing Page, that serves as a lead capture to all links and contacts. 
+              <li>Bootstrap</li>
+              <li>Font Awesome</li>
+              <li>HTML & CSS</li>
+            </p>
+          </div>
+          <div class="card-footer">
+            <a
+              href="https://khrystynaleshko.github.io/"
+              class="btn btn-primary"
+              >Landing Page 🚀</a
+            >
+            <a
+              href="https://github.com/KhrystynaLeshko/KhrystynaLeshko.github.io"
+              class="btn btn-primary"
+              >Code Source</a
+            >
+          </div>
+          </div>
+        </div>
+
+        <!-- 5th CARD -->
+        <div class="col mt-4">
+          <div class="card">
+            <img
+            src="./img/word-buddy.png"
+            class="card-img-top"
+            alt="word-buddy"
+          />
+          <div class="card-body">
+            <h3 class="card-title">
+              <a href="https://word-buddy.netlify.app/">
+                Word Buddy 📖
+              </a>
+            </h3>
+            <p class="card-text">
+              - dictionary, that will help you to find the definitions of a word in 12 languages. 
+              <li>ReactJS</li>
+              <li>Material UI</li>
+              <li>JavaScript</li>
+              <li>HTML & CSS</li>
+            </p>
+          </div>
+          <div class="card-footer">
+            <a
+              href="https://word-buddy.netlify.app/"
+              class="btn btn-primary"
+              >Word Buddy 📖</a
+            >
+            <a
+              href="https://github.com/KhrystynaLeshko/word-buddy"
+              class="btn btn-primary"
+              >Code Source</a
+            >
+          </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
     <!-- FOOTER 👇 -->
 
